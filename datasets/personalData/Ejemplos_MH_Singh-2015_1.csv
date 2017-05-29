@@ -1,0 +1,5 @@
+input, expected_output
+"Roger", "Mr. Roger"
+"Simon", "Mr. Simon"
+"Benjamin", "Mr. Benjamin"
+"John", "Mr. John"

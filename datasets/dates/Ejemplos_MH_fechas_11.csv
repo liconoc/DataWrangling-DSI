@@ -1,0 +1,4 @@
+input, expected_output
+"Sunday, 9 November 2014", "Sunday"
+"2 of September of 2010, Monday", "Monday"
+"2003-Nov-9, Sunday", "Sunday"

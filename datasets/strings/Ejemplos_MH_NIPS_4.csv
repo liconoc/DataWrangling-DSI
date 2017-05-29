@@ -1,0 +1,3 @@
+input, expected_output
+"CAMP DRY DBL NDL 3.6 OZ", "3.6 OZ"
+"DRY NDL 0.23 KG", "0.23 KG" 

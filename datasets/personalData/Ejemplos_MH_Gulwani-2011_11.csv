@@ -1,0 +1,4 @@
+input1, input2, expected_output
+"Otis", "Daniels", "Otis, D."
+"Kimberly", "Jones", "Kimberley, J."
+"Mary", "Leslie", "Mary, L."

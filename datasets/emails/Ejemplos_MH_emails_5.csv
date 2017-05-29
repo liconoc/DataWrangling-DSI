@@ -1,0 +1,6 @@
+input, input2, expected_output
+"Sophia", "domain", "Sophia@domain.com"
+"Logan", "domain", "Logan@domain.com"
+"Lucas", "domain", "Lucas@domain.com"
+"Audrey", "domain", "Audrey@domain.com"
+"Amelia", "domain", "Amelia@domain.com"

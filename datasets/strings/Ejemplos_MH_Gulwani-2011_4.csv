@@ -1,0 +1,4 @@
+input, expected_output
+"International Business Machines", "IBM"
+"Principles Of Programming Languages", "POPL"
+"International Conference on Software Engineering",	"ICSE"

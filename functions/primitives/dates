@@ -1,0 +1,126 @@
+## Lines starting with # will be ignored, so you can exclude individual functions by commenting them out. 
+## Fechas
+0 reduceMonth :: [Char] -> [Char]
+0 getDayCardinalString :: [Char] -> [Char]
+0 getDayCardinalArray :: [[Char]] -> [Char]
+0 getDayOrdinal :: [Char] -> [Char]
+0 getWeekDayArray :: [[Char]] -> [Char]
+0 getWeekDayString :: [Char] -> [Char]
+0 getMonthArray :: [[Char]] -> [Char]
+0 getMonthString :: [Char] -> [Char]
+0 getMonthNameString :: [Char] -> [Char]
+0 getMonthNameArray :: [[Char]] -> [Char]
+#0 getYearString:: [Char] -> [Char]
+0 getYearArray :: [[Char]] -> [Char]
+0 addPunctuationString :: [Char] -> [Char] -> [[Char]]
+0 splitStringWithoutPunctuation :: [Char] -> [[Char]]
+0 convertDayOrdinalWithinArray :: [[Char]] -> [[Char]]
+0 convertMonthToNumeric :: [Char] -> [Char]
+0 convertMonthToString :: [Char] -> [Char]
+0 convertMonthToNumericWithinArray :: [[Char]] -> [[Char]]
+0 convertMonthToStringWithinArray :: [[Char]] -> [[Char]]
+0 reduceMonthWithinArray :: [[Char]] -> [[Char]]
+0 reduceYear :: [Char] -> [Char]
+0 reduceYearWithinArray :: [[Char]] -> [[Char]]
+0 changeDateFormat :: [Char] -> [Char] -> [[Char]]
+## Strings
+0 setPunctuationArray :: [[Char]] -> [Char] -> [[Char]]
+0 changePunctuationArray :: [[Char]] -> [Char] -> [[Char]]
+0 changePunctuationString :: [Char] -> [Char] -> [Char]
+0 deletePunctuationArray :: [[Char]] -> [[Char]]
+0 deletePunctuationString :: [Char] -> [Char]
+0 deleteSomePunctuationString :: [Char] -> [Char] -> [Char]
+0 splitStringByPunctuation :: [Char] -> [Char] -> [[Char]]
+0 splitStringWithPunctuation :: [Char] -> [[Char]]
+0 splitStringTakeOffPunctuation :: [Char] -> [[Char]]
+0 swapElementsString :: Int -> Int -> [Char] -> [Char]
+0 swapElementsArray :: Int -> Int -> [[Char]] -> [[Char]]
+0 appendPositionArray :: [[Char]] -> [Char] -> Int -> [[Char]]
+0 appendNextToLast :: [[Char]] -> [Char] -> [[Char]]
+0 append :: [Char] -> [Char] -> [Char]
+0 prepend :: [Char] -> [Char] -> [Char]
+0 replacePositionArray :: [[Char]] -> [Char] -> Int -> [[Char]]
+0 replaceAll :: [Char] -> [Char] -> [Char] -> [Char]
+0 takeOneOfArray :: [[Char]] -> Int -> [Char]
+0 append_first :: [[Char]] -> [Char] -> [[Char]]
+0 append_middle :: [[Char]] -> [Char] -> [[Char]]
+0 append_last :: [[Char]] -> [Char] -> [[Char]]
+0 prepend_first :: [[Char]] -> [Char] -> [[Char]]
+0 prepend_middle :: [[Char]] -> [Char] -> [[Char]]
+0 prepend_last :: [[Char]] -> [Char] -> [[Char]]
+0 takeOneOfFixedSizeArray :: [[Char]] -> [Char] -> [Char]
+0 takeOneOfFixedSizeString :: [Char] -> [Char] -> [Char]
+0 replacePositionArrayFixedSize :: [[Char]] -> [Char] -> [Char] -> [[Char]]
+0 takeTwoOfThreeArray :: [[Char]] -> Int -> Int -> [[Char]] 
+## Original
+0 concat :: forall a . (->) ([[a]]) ([a])
+0 take :: forall a . Int -> [a] -> [a]
+0 drop :: forall a . Int -> [a] -> [a]
+0 words :: [Char] -> [[Char]]
+0 unwords :: [[Char]] -> [Char]
+0 show :: Int -> [Char]
+## Números
+0 0 :: Int
+0 1 :: Int
+0 2 :: Int
+0 3 :: Int
+0 4 :: Int
+0 5 :: Int
+0 6 :: Int
+0 7 :: Int
+0 8 :: Int
+0 9 :: Int
+0 10 :: Int
+0 11 :: Int
+0 12 :: Int
+0 13 :: Int
+0 14 :: Int
+0 15 :: Int
+0 16 :: Int
+0 17 :: Int
+0 18 :: Int
+0 19 :: Int
+0 20 :: Int
+0 21 :: Int
+0 22 :: Int
+0 23 :: Int
+0 24 :: Int
+0 25 :: Int
+0 26 :: Int
+0 27 :: Int
+0 28 :: Int
+0 29 :: Int
+0 30 :: Int
+0 31 :: Int
+0 1900 :: Int
+0 2000 :: Int
+## Constantes
+0 dash :: [Char]
+0 slash :: [Char]
+0 dot :: [Char]
+0 comma :: [Char]
+0 colon  :: [Char]
+0 space :: [Char]
+0 zero  :: [Char]
+0 nineteen  :: [Char]
+0 twenty  :: [Char]
+0 firstElement :: [Char]
+0 middleElement :: [Char]
+0 lastElement :: [Char]
+0 formatDMY :: [Char]
+0 formatDYM :: [Char]
+0 formatMDY :: [Char]
+0 formatMYD :: [Char]
+0 formatYMD :: [Char]
+0 formatYDM :: [Char]
+0 formatDM :: [Char]
+0 formatMY :: [Char]
+0 formatDY :: [Char]
+0 formatMD :: [Char]
+0 formatYM :: [Char]
+0 formatYD :: [Char]
+0 formatD :: [Char]
+0 formatM :: [Char]
+0 formatY :: [Char]
+## General
+## 

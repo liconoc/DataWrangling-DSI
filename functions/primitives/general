@@ -1,0 +1,345 @@
+## Lines starting with # will be ignored, so you can exclude individual functions by commenting them out. 
+## Números
+0 0 :: Int
+0 1 :: Int
+0 2 :: Int
+0 3 :: Int
+0 4 :: Int
+0 5 :: Int
+0 6 :: Int
+0 7 :: Int
+0 8 :: Int
+0 9 :: Int
+0 10 :: Int
+0 10 :: Int
+0 12 :: Int
+0 13 :: Int
+0 14 :: Int
+0 15 :: Int
+0 16 :: Int
+0 17 :: Int
+0 18 :: Int
+0 19 :: Int
+0 20 :: Int
+0 20 :: Int
+0 22 :: Int
+0 23 :: Int
+0 24 :: Int
+0 25 :: Int
+0 26 :: Int
+0 27 :: Int
+0 28 :: Int
+0 29 :: Int
+0 30 :: Int
+0 30 :: Int
+0 1900 :: Int
+0 2000 :: Int
+## Constantes
+0 dash :: [Char]
+0 slash :: [Char]
+0 dot :: [Char]
+0 comma :: [Char]
+0 colon  :: [Char]
+0 lBracket  :: [Char]
+0 rBracket  :: [Char]
+0 and :: [Char]
+0 andWithDots :: [Char]
+0 at :: [Char]
+0 hash :: [Char]
+0 lparentheses :: [Char]
+0 rparentheses :: [Char]
+0 space :: [Char]
+0 zero  :: [Char]
+0 nineteen  :: [Char]
+0 twenty  :: [Char]
+0 firstElement :: [Char]
+0 middleElement :: [Char]
+0 lastElement :: [Char]
+0 formatDMY :: [Char]
+0 formatDYM :: [Char]
+0 formatMDY :: [Char]
+0 formatMYD :: [Char]
+0 formatYMD :: [Char]
+0 formatYDM :: [Char]
+0 formatDM :: [Char]
+0 formatMY :: [Char]
+0 formatDY :: [Char]
+0 formatMD :: [Char]
+0 formatYM :: [Char]
+0 formatYD :: [Char]
+0 formatD :: [Char]
+0 formatM :: [Char]
+0 formatY :: [Char]
+## General
+## 
+## Strings
+0 setPunctuationArray :: [[Char]] -> [Char] -> [[Char]]
+0 changePunctuationArray :: [[Char]] -> [Char] -> [[Char]]
+0 changePunctuationString :: [Char] -> [Char] -> [Char]
+0 deletePunctuationArray :: [[Char]] -> [[Char]]
+0 deletePunctuationString :: [Char] -> [Char]
+0 deleteSomePunctuationString :: [Char] -> [Char] -> [Char]
+0 splitStringByPunctuation :: [Char] -> [Char] -> [[Char]]
+0 splitStringWithPunctuation :: [Char] -> [[Char]]
+0 splitStringTakeOffPunctuation :: [Char] -> [[Char]]
+0 swapElementsString :: Int -> Int -> [Char] -> [Char]
+0 swapElementsArray :: Int -> Int -> [[Char]] -> [[Char]]
+0 appendPositionArray :: [[Char]] -> [Char] -> Int -> [[Char]]
+0 appendPositionString :: [Char] -> [Char] -> Int -> [Char]
+0 appendNextToLast :: [[Char]] -> [Char] -> [[Char]]
+0 append :: [Char] -> [Char] -> [Char]
+0 prepend :: [Char] -> [Char] -> [Char]
+0 replacePositionArray :: [[Char]] -> [Char] -> Int -> [[Char]]
+0 replacePositionString :: [Char] -> [Char] -> Int -> [Char]	
+0 replaceAll :: [Char] -> [Char] -> [Char] -> [Char]
+0 replaceNextToLast :: [[Char]] -> [Char] -> [[Char]]
+0 toLowString :: [Char] -> [Char]
+0 toUpperString :: [Char] -> [Char]
+0 reduceWord :: [Char] -> Int -> [Char]
+0 takeOneOfArray :: [[Char]] -> Int -> [Char]
+0 joinStringsWithPunctuation :: [Char] -> [Char] -> [Char] -> [Char]
+0 append_first :: [[Char]] -> [Char] -> [[Char]]
+0 append_middle :: [[Char]] -> [Char] -> [[Char]]
+0 append_last :: [[Char]] -> [Char] -> [[Char]]
+0 prepend_first :: [[Char]] -> [Char] -> [[Char]]
+0 prepend_middle :: [[Char]] -> [Char] -> [[Char]]
+0 prepend_last :: [[Char]] -> [Char] -> [[Char]]
+0 takeOneOfFixedSizeArray :: [[Char]] -> [Char] -> [Char]
+0 takeOneOfFixedSizeString :: [Char] -> [Char] -> [Char]
+0 replacePositionArrayFixedSize :: [[Char]] -> [Char] -> [Char] -> [[Char]]
+0 getOneWordByPosition :: [Char] -> Int -> [Char]
+0 getFirstWord :: [Char] -> [Char]
+0 getLastWord :: [Char] -> [Char]
+0 getOneCharacterByPosition :: [Char] -> Int -> [Char]
+0 getFirstCharacter :: [Char] -> [Char]
+0 getLastCharacter :: [Char] -> [Char]
+0 getStartToFirstSymbolOccurrence :: [Char] -> [Char] -> [Char]
+0 getStartToLastSymbolOccurrence :: [Char] -> [Char] -> [Char]
+0 getLastSymbolOccurrenceToEnd :: [Char] -> [Char] -> [Char]
+0 getFirstSymbolOccurrenceToEnd :: [Char] -> [Char] -> [Char]
+0 takeTwoOfThreeArray :: [[Char]] -> Int -> Int -> [[Char]] 
+## Fechas
+0 addPunctuationString :: [Char] -> [Char] -> [[Char]]
+0 splitStringWithoutPunctuation :: [Char] -> [[Char]]
+0 reduceMonth :: [Char] -> [Char]
+0 getDayCardinalString :: [Char] -> [Char]
+0 getDayCardinalArray :: [[Char]] -> [Char]
+0 getDayOrdinal :: [Char] -> [Char]
+0 getWeekDayArray :: [[Char]] -> [Char]
+0 getWeekDayString :: [Char] -> [Char]
+0 getMonthArray :: [[Char]] -> [Char]
+0 getMonthString :: [Char] -> [Char]
+0 getMonthNameString :: [Char] -> [Char]
+0 getMonthNameArray :: [[Char]] -> [Char]
+#0 getYearString:: [Char] -> [Char]
+0 getYearArray :: [[Char]] -> [Char]
+0 convertDayOrdinalWithinArray :: [[Char]] -> [[Char]]
+0 convertMonthToNumeric :: [Char] -> [Char]
+0 convertMonthToString :: [Char] -> [Char]
+0 convertMonthToNumericWithinArray :: [[Char]] -> [[Char]]
+0 convertMonthToStringWithinArray :: [[Char]] -> [[Char]]
+0 reduceMonthWithinArray :: [[Char]] -> [[Char]]
+0 reduceYear :: [Char] -> [Char]
+0 reduceYearWithinArray :: [[Char]] -> [[Char]]
+0 changeDateFormat :: [Char] -> [Char] -> [[Char]]
+## Emails
+0 getWordsBeforeAt :: [Char] -> [Char]
+0 getWordsAfterAt :: [Char] -> [Char]
+0 getWordsBeforeDot :: [Char] -> [Char]
+0 getWordsAfterDot :: [Char] -> [Char]
+0 getWordsBetweenAtAndDot :: [Char] -> [Char]
+0 appendAt :: [Char] -> [Char]
+0 prependAt :: [Char] -> [Char]
+0 joinStringsWithAt :: [Char] -> [Char] -> [Char]
+## Personal Data
+0 addNomenclature :: [Char] -> Int -> [Char]
+0 deleteNomenclature :: [Char] -> [Char]
+0 deleteNomenclatureAndPunctuation :: [Char] -> [Char]
+0 reduceNamesFirstPlace :: [Char] -> [Char]
+0 reduceNameFirstPlace :: [Char] -> [Char]
+0 reduceNameWithSurnameSecondPlace :: [Char] -> [Char]
+0 reduceNameWithSurnamesSecondPlace :: [Char] -> [Char]
+0 initialsNameFirstPlace :: [Char] -> [Char]
+0 reduceNameSecondWord :: [Char] -> [Char] -> [Char]
+0 reduceNameSecondWord :: [Char] -> [Char] -> [Char]
+0 setParentheses :: [Char] -> [Char]
+## Original
+2 concat :: forall a . (->) ([[a]]) ([a])
+2 (++) :: forall a . (->) ([a]) ([a] -> [a])
+2 filter :: forall a . (a -> Bool) -> [a] -> [a]
+2 negate :: Ratio Int -> Ratio Int
+2 abs :: Ratio Int -> Ratio Int
+2 sum :: (->) ([Ratio Int]) (Ratio Int)
+2 product :: (->) ([Ratio Int]) (Ratio Int)
+2 (+) :: Ratio Int -> Ratio Int -> Ratio Int
+2 (-) :: Ratio Int -> Ratio Int -> Ratio Int
+2 (*) :: Ratio Int -> Ratio Int -> Ratio Int
+2 (/) :: Ratio Int -> Ratio Int -> Ratio Int
+2 fromIntegral :: Int -> Ratio Int
+2 properFraction :: (->) (Ratio Int) ((Int, Ratio Int))
+2 round :: (->) (Ratio Int) Int
+2 floor :: (->) (Ratio Int) Int
+2 ceiling :: (->) (Ratio Int) Int
+2 (^^) :: Ratio Int -> Int -> Ratio Int
+2 (%) :: Int -> Int -> Ratio Int
+2 numerator :: (->) (Ratio Int) Int
+2 denominator :: (->) (Ratio Int) Int
+2 [] :: forall a . [a]
+2 (:) :: forall a . a -> [a] -> [a]
+2 foldr
+2 drop 1
+2 (2 +) :: Int -> Int
+2 \n x f -> iterate f x !! (n::Int)
+2 Nothing :: forall a . Maybe a
+2 Just :: forall a . a -> Maybe a
+2 maybe
+2 True :: Bool
+2 False :: Bool
+2 iF :: forall a . (->) Bool (a -> a -> a)
+2 (+) :: (->) Int ((->) Int Int)
+2 (&&) :: (->) Bool ((->) Bool Bool)
+2 (||) :: (->) Bool ((->) Bool Bool)
+2 not :: (->) Bool Bool
+2 (-) :: Int -> Int -> Int
+2 (*) :: Int -> Int -> Int
+2 map
+2 concatMap
+2 length :: forall a . (->) ([a]) Int
+2 replicate :: forall a . Int -> a -> [a]
+2 take :: forall a . Int -> [a] -> [a]
+2 drop :: forall a . Int -> [a] -> [a]
+2 takeWhile :: forall a . (a -> Bool) -> [a] -> [a]
+2 dropWhile :: forall a . (a -> Bool) -> [a] -> [a]
+2 reverse :: forall a . [a] -> [a]
+2 and :: (->) ([Bool]) Bool
+2 or :: (->) ([Bool]) Bool
+2 any
+2 all
+2 zipWith
+2 null :: forall a . (->) ([a]) Bool
+2 abs :: (->) Int Int
+2 foldl
+2 total head
+2 total last
+2 total init
+2 enumFromTo :: Int -> Int -> [Int]
+2 enumFromTo :: Char -> Char -> [Char]
+2 fmap :: forall a b . (a -> b) -> (->) (Maybe a) (Maybe b)
+2 either
+2 gcd :: Int -> Int -> Int
+2 lcm :: Int -> Int -> Int
+2 sum :: (->) ([Int]) Int
+2 product :: (->) ([Int]) Int
+2 (==)
+2 (/=)
+2 compare
+2 (<=)
+2 (<)
+2 max
+2 min
+2 sortBy :: forall a . (a -> a -> Ordering) -> [a] -> [a]
+2 nubBy :: forall a . (a -> a -> Bool) -> [a] -> [a]
+2 deleteBy :: forall a . (a -> a -> Bool) -> a -> [a] -> [a]
+2 dropWhileEnd :: forall a . (a -> Bool) -> [a] -> [a]
+2 transpose :: forall a . [[a]] -> [[a]]
+2 toUpper :: (->) Char Char
+2 toLower :: (->) Char Char
+2 ord :: Char -> Int
+2 isControl :: (->) Char Bool
+2 isSpace :: (->) Char Bool
+2 isLower :: (->) Char Bool
+2 isUpper :: (->) Char Bool
+2 isAlpha :: (->) Char Bool
+2 isAlphaNum :: (->) Char Bool
+2 isDigit :: (->) Char Bool
+2 isSymbol :: (->) Char Bool
+2 isPunctuation :: (->) Char Bool
+2 isPrint :: (->) Char Bool
+2 succ :: Double -> Double
+2 negate :: Double -> Double
+2 abs :: Double -> Double
+2 signum :: Double -> Double
+2 recip :: Double -> Double
+2 sum :: (->) ([Double]) Double
+2 product :: (->) ([Double]) Double
+2 (+) :: Double -> Double -> Double
+2 (-) :: Double -> Double -> Double
+2 (*) :: Double -> Double -> Double
+2 (/) :: Double -> Double -> Double
+2 fromIntegral :: Int -> Double
+2 properFraction :: (->) Double ((Int, Double))
+2 round :: (->) Double Int
+2 floor :: (->) Double Int
+2 ceiling :: (->) Double Int
+2 truncate :: (->) Double Int
+2 (^^) :: Double -> Int -> Double
+2 pi :: Double
+2 lines :: [Char] -> [[Char]]
+2 words :: [Char] -> [[Char]]
+2 unlines :: [[Char]] -> [Char]
+2 unwords :: [[Char]] -> [Char]
+2 scanl :: forall a b . (a -> b -> a) -> a -> [b] -> [a]
+2 scanr :: forall a b . (a -> b -> b) -> b -> [a] -> [b]
+2 scanl2 :: forall a . (a -> a -> a) -> [a] -> [a]
+2 scanr2 :: forall a . (a -> a -> a) -> [a] -> [a]
+2 show :: Int -> [Char]
+2 (,) :: forall a b . a -> b -> (a, b)
+2 uncurry
+2 elem
+2 nub
+2 find :: forall a . (a -> Bool) -> [a] -> Maybe a
+2 findIndex
+2 findIndices
+2 deleteFirstsBy :: forall a . (a -> a -> Bool) -> [a] -> [a] -> [a]
+2 unionBy :: forall a . (a -> a -> Bool) -> (->) ([a]) ([a] -> [a])
+2 intersectBy :: forall a . (a -> a -> Bool) -> (->) ([a]) ([a] -> [a])
+2 insertBy :: forall a . (a -> a -> Ordering) -> a -> [a] -> [a]
+2 isOctDigit :: (->) Char Bool
+2 isHexDigit :: (->) Char Bool
+2 catMaybes :: forall a . [Maybe a] -> [a]
+2 listToMaybe :: forall a . (->) ([a]) (Maybe a)
+2 maybeToList :: forall a . (->) (Maybe a) ([a])
+2 exp :: Double -> Double
+2 log :: Double -> Double
+2 sqrt :: Double -> Double
+2 (**) :: Double -> Double -> Double
+2 logBase :: Double -> Double -> Double
+2 sin :: Double -> Double
+2 cos :: Double -> Double
+2 tan :: Double -> Double
+2 asin :: Double -> Double
+2 acos :: Double -> Double
+2 atan :: Double -> Double
+2 sinh :: Double -> Double
+2 cosh :: Double -> Double
+2 tanh :: Double -> Double
+2 asinh :: Double -> Double
+2 acosh :: Double -> Double
+2 atanh :: Double -> Double
+2 floatDigits :: Double -> Int
+2 exponent :: Double -> Int
+2 significand :: Double -> Double
+2 scaleFloat :: Int -> Double -> Double
+2 atan2 :: Double -> Double -> Double
+2 (,,) :: forall a b c . a -> b -> c -> (a, b, c)
+2 Left :: forall a b . a -> Either a b
+2 Right :: forall b a . b -> Either a b
+2 zip :: forall a b . (->) ([a]) ((->) ([b]) ([(a, b)]))
+2 zip3 :: forall a b c . (->) ([a]) ((->) ([b]) ((->) ([c]) ([(a, b, c)])))
+2 unzip :: forall a b . (->) ([(a, b)]) (([a], [b]))
+2 unzip3 :: forall a b c . (->) ([(a, b, c)]) (([a], [b], [c]))
+2 odd :: Int -> Bool
+2 even :: Int -> Bool
+2 isPrefixOf
+2 isSuffixOf
+2 isInfixOf
+2 stripPrefix
+2 lookup
+2 sort
+2 intersperse :: forall a . a -> [a] -> [a]
+2 subsequences :: forall a . [a] -> [[a]]
+2 permutations :: forall a . [a] -> [[a]]
+2 inits :: forall a . [a] -> [[a]]
+2 tails :: forall a . [a] -> [[a]]
+2 mapAccumL
+2 mapAccumR
