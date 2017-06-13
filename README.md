@@ -1,2 +1,2 @@
-# MagicWrangler
-MagicWrangling: Automating data wrangling process
+# Data Wrangling
+Automating data wrangling process
