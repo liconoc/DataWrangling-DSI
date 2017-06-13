@@ -1,0 +1,5 @@
+input;ff;tw;mh;expected_output
+"Mr. Roger";"Male";"";"Male";"Male"
+"Mrs. Simona";"";"";"Female";"Female"
+"Dr. Benjamin";"";"";"Male";"Male"
+"Mr. John";"";"";"Male";"Male"

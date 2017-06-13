@@ -1,0 +1,7 @@
+"","id_file","total_rows","total_inputs","primitive_set","d","num_examples","function","correct_outputs","incorrect_outputs","accuracy","time"
+"1","extractBetweenAtDot","16","1","dates.txt","5","1","","0","15","0","276.303973436356"
+"2","extractBetweenAtDot","16","1","emails.txt","5","1","getWordsBetweenAtAndDot a","15","0","1","159.681445360184"
+"3","extractBetweenAtDot","16","1","general.txt","5","1","","0","15","0","9.18729114532471"
+"4","extractBetweenAtDot","16","1","names.txt","5","1","","0","15","0","385.358790874481"
+"5","extractBetweenAtDot","16","1","original.txt","5","1","","0","15","0","182.353035449982"
+"6","extractBetweenAtDot","16","1","words.txt","5","1","","0","15","0","283.559748411179"

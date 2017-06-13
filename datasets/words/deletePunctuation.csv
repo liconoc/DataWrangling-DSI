@@ -1,0 +1,7 @@
+"","id_file","total_rows","total_inputs","primitive_set","d","num_examples","function","correct_outputs","incorrect_outputs","accuracy","time"
+"1","deletePunctuation","5","1","dates.txt","5","1","deletePunctuationString a","4","0","1","120.244007587433"
+"2","deletePunctuation","5","1","emails.txt","5","1","deletePunctuationString a","4","0","1","54.8942792415619"
+"3","deletePunctuation","5","1","general.txt","5","1","","0","4","0","5.38327741622925"
+"4","deletePunctuation","5","1","original.txt","5","1","filter isDigit a","4","0","1","80.9317605495453"
+"5","deletePunctuation","5","1","names.txt","5","1","deletePunctuationString a","4","0","1","160.758306980133"
+"6","deletePunctuation","5","1","words.txt","5","1","deletePunctuationString a","4","0","1","165.701801538467"

@@ -1,0 +1,4 @@
+input;ff;tw;mh;expected_output
+"International Business Machines";"IBM";"IBM";"IBM";"IBM"
+"Principles Of Programming Languages";"POPL";"POPL";"POPL";"POPL"
+"International Conference on Software Engineering";"ICSE";"ICSE";"ICSE";"ICSE"

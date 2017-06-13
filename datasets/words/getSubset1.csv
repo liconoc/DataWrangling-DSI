@@ -1,0 +1,7 @@
+"","id_file","total_rows","total_inputs","primitive_set","d","num_examples","function","correct_outputs","incorrect_outputs","accuracy","time"
+"1","getSubset1","5","1","dates.txt","5","1","drop 6 a","4","0","1","110.0287296772"
+"2","getSubset1","5","1","emails.txt","5","1","getWordsBetweenAtAndDot (replacePositionString a at 5)","0","4","0","64.4167249202728"
+"3","getSubset1","5","1","general.txt","5","1","","0","4","0","5.45223140716553"
+"4","getSubset1","5","1","original.txt","5","1","drop 6 a","4","0","1","57.4471023082733"
+"5","getSubset1","5","1","names.txt","5","1","getFirstSymbolOccurrenceToEnd a (reduceWord a 6)","4","0","1","144.48114991188"
+"6","getSubset1","5","1","words.txt","5","1","getLastSymbolOccurrenceToEnd (getFirstDigitToEnd (reduceSpaces a)) dash","4","0","1","125.930729866028"

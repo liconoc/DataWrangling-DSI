@@ -1,0 +1,7 @@
+"","id_file","total_rows","total_inputs","primitive_set","d","num_examples","function","correct_outputs","incorrect_outputs","accuracy","time"
+"1","changePunctuation","7","1","dates.txt","5","1","changePunctuationString a dash","6","0","1","169.059159040451"
+"2","changePunctuation","7","1","emails.txt","5","1","changePunctuationString a dash","6","0","1","156.359346628189"
+"3","changePunctuation","7","1","general.txt","5","1","","0","6","0","8.54019713401794"
+"4","changePunctuation","7","1","names.txt","5","1","changePunctuationString a dash","6","0","1","396.709037303925"
+"5","changePunctuation","7","1","original.txt","5","1","","0","6","0","205.819587230682"
+"6","changePunctuation","7","1","words.txt","5","1","changePunctuationString a dash","6","0","1","314.585240125656"

@@ -1,0 +1,7 @@
+"","id_file","total_rows","total_inputs","primitive_set","d","num_examples","function","correct_outputs","incorrect_outputs","accuracy","time"
+"1","extractDomain","16","1","dates.txt","5","1","drop 16 a","2","13","0.133333333333333","248.425981283188"
+"2","extractDomain","16","1","emails.txt","5","1","getWordsAfterAt a","15","0","1","140.544843196869"
+"3","extractDomain","16","1","general.txt","5","1","","0","15","0","9.74916100502014"
+"4","extractDomain","16","1","names.txt","5","1","","0","15","0","385.759096384048"
+"5","extractDomain","16","1","original.txt","5","1","","0","15","0","158.688568115234"
+"6","extractDomain","16","1","words.txt","5","1","","0","15","0","290.074454307556"

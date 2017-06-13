@@ -1,0 +1,6 @@
+input;ff;tw;mh;expected_output
+"Dr. Eran Yahav";"Yahav, E.";"Eran Yahav";"Yahav, E.";"Yahav, E."
+"Prof. Kathleen S. Fisher";"";"Prof. Kathleen";"Fisher, K.";"Fisher, K."
+"Bill Gates, Sr.";"Sr., G.";"Bill Gates";"Gates,, B.";"Gates, B."
+"George Ciprian Necula";"Necula, C.";"George";"Necula, G.";"Necula, G."
+"Ken McMillan, II";"II, M.";"McMillan";"McMillan,, K.";"McMillan, K."

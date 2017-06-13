@@ -1,5 +1,0 @@
-input1, input2, expected_output
-"Alex", "Asst.", "Alex(Asst.)"
-"Jim", "Manager", "Jim(Manager)"
-"Ryan", "", ""
-"", "Asst.", ""

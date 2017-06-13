@@ -1,0 +1,7 @@
+"","id_file","total_rows","total_inputs","primitive_set","d","num_examples","function","correct_outputs","incorrect_outputs","accuracy","time"
+"1","reduceName2","3","2","dates.txt","5","1","","0","2","0","120.163528203964"
+"2","reduceName2","3","2","emails.txt","5","1","","0","2","0","74.7956609725952"
+"3","reduceName2","3","2","general.txt","5","1","","0","2","0","7.54362297058105"
+"4","reduceName2","3","2","names.txt","5","1","reduceNameSecondWord a b","2","0","1", ""
+"5","reduceName2","3","2","original.txt","5","1","","0","2","0","156.553084135056"
+"6","reduceName2","3","2","words.txt","5","1","","0","2","0","104.27000784874"

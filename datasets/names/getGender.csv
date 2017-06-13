@@ -1,0 +1,7 @@
+"","id_file","total_rows","total_inputs","primitive_set","d","num_examples","function","correct_outputs","incorrect_outputs","accuracy","time"
+"1","getGender","4","1","dates.txt","5","1","","0","3","0","293.212229967117"
+"2","getGender","4","1","emails.txt","5","1","","0","3","0","158.13648557663"
+"3","getGender","4","1","general.txt","5","1","","0","3","0","9.98093104362488"
+"4","getGender","4","1","names.txt","5","1","getGenderByNomenclature a","3","0","1","396.484335184097"
+"5","getGender","4","1","original.txt","5","1","","0","3","0","221.595613479614"
+"6","getGender","4","1","words.txt","5","1","","0","3","0","264.025242328644"

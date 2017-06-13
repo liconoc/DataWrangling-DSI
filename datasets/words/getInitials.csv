@@ -1,0 +1,7 @@
+"","id_file","total_rows","total_inputs","primitive_set","d","num_examples","function","correct_outputs","incorrect_outputs","accuracy","time"
+"1","getInitials","3","1","dates.txt","5","1","","0","2","0","128.997066020966"
+"2","getInitials","3","1","emails.txt","5","1","","0","2","0","73.6995334625244"
+"3","getInitials","3","1","general.txt","5","1","","0","2","0","6.16109728813171"
+"4","getInitials","3","1","original.txt","5","1","filter isUpper a","1","1","0.5","94.6926777362823"
+"5","getInitials","3","1","names.txt","5","1","deletePunctuationString (reduceWord (reduceNamesFirstPlace a) 7)","0","2","0","168.066185951233"
+"6","getInitials","3","1","words.txt","5","1","getCaps a","2","0","1","124.016770601273"

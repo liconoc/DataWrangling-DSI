@@ -1,0 +1,7 @@
+"","id_file","total_rows","total_inputs","primitive_set","d","num_examples","function","correct_outputs","incorrect_outputs","accuracy","time"
+"1","extractDay","7","1","dates.txt","5","1","getDayCardinalString a","6","0","1","242.557431697845"
+"2","extractDay","7","1","emails.txt","5","1","","0","6","0","134.719082355499"
+"3","extractDay","7","1","general.txt","5","1","","0","6","0","8.15672659873962"
+"4","extractDay","7","1","names.txt","5","1","","0","6","0","338.136612653732"
+"5","extractDay","7","1","original.txt","5","1","take 2 (drop 3 a)","1","5","0.166666666666667","187.931141138077"
+"6","extractDay","7","1","words.txt","5","1","","0","6","0","274.501487731934"

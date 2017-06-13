@@ -1,0 +1,12 @@
+getInitials (más de un paso)
+extract col: column2 on: `{upper}` limit: 4
+merge col: column1,column3,column4,column5 as: 'column6'
+
+getSubset1
+extract col: column2 on: `{time}` after: `{delim}` before: `"`
+
+deletePunctuation
+set col: column2 value: removesymbols($col)
+
+getSubset2
+extract col: column2 from: `{number}` to: `{upper}{2}`

@@ -1,0 +1,15 @@
+addAt (no se puede hacer con un solo paso, más de un ejemplo, no se puede añadir la arroba, no comparable)
+replace col: column2 with: '.' on: `{delim}` global: true
+set col: column2 value: tolowercase($col)  ******
+
+extractDomain
+extract col: column2 on: `{lower}+.{lower}+`
+
+extractBetweenAtAndDot
+extract col: column2 on: `{lower}+` after: `@` before: `{delim}`
+
+joinWithAt (no se puede hacer con un solo paso, más de un ejemplo, no se puede añadir .com, no comparable)
+set col: column2 value: removesymbols($col)
+set col: column3 value: removesymbols($col)
+merge col: column2,column3 with: '@' as: 'column1'
+set col: column1 value: removewhitespace($col)
