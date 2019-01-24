@@ -1,7 +1,0 @@
-"","id_file","total_rows","total_inputs","primitive_set","d","num_examples","function","correct_outputs","incorrect_outputs","accuracy","time"
-"1","extractWeekDay","3","1","dates.txt","5","1","getWeekDayArray (splitStringWithPunctuation a)","2","0","1","254.989024162292"
-"2","extractWeekDay","3","1","emails.txt","5","1","getWordsBetweenAtAndDot (changePunctuationString a dotcom)","0","2","0","139.068913936615"
-"3","extractWeekDay","3","1","general.txt","5","1","","0","2","0","8.74185037612915"
-"4","extractWeekDay","3","1","names.txt","5","1","reduceWord a 6","0","2","0","349.094957828522"
-"5","extractWeekDay","3","1","original.txt","5","1","takeWhile isAlpha a","0","2","0","145.530886888504"
-"6","extractWeekDay","3","1","words.txt","5","1","deletePunctuationString (getStartToFirstDigit a)","0","2","0","144.942082881927"

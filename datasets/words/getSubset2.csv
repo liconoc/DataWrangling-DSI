@@ -1,7 +1,0 @@
-"","id_file","total_rows","total_inputs","primitive_set","d","num_examples","function","correct_outputs","incorrect_outputs","accuracy","time"
-"1","getSubset2","2","1","dates.txt","5","1","drop 17 a","0","1","0","84.2805452346802"
-"2","getSubset2","2","1","emails.txt","5","1","","0","1","0","46.2189600467682"
-"3","getSubset2","2","1","general.txt","5","1","","0","1","0","3.63993096351624"
-"4","getSubset2","2","1","original.txt","5","1","dropWhile (\b -> not (isDigit b)) a","0","1","0","15.6966660022736"
-"5","getSubset2","2","1","names.txt","5","1","deleteNomenclature (toUpperString (reduceNamesFirstPlace (reduceNamesFirstPlace a)))","0","1","0","106.77924156189"
-"6","getSubset2","2","1","words.txt","5","1","getFirstDigitToEnd a","1","0","1","91.0254454612732"

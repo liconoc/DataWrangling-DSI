@@ -1,7 +1,0 @@
-"","id_file","total_rows","total_inputs","primitive_set","d","num_examples","function","correct_outputs","incorrect_outputs","accuracy","time"
-"1","getNomenclature","4","1","dates.txt","5","1","reduceMonth a","0","3","0","300.168137073517"
-"2","getNomenclature","4","1","emails.txt","5","1","getFirstWord a","1","2","0.333333333333333","152.015591859818"
-"3","getNomenclature","4","1","general.txt","5","1","","0","3","0","8.48887038230896"
-"4","getNomenclature","4","1","names.txt","5","1","getNomenclature a","3","0","1","257.462002277374"
-"5","getNomenclature","4","1","original.txt","5","1","take 3 a","0","3","0","167.51304769516"
-"6","getNomenclature","4","1","words.txt","5","1","getFirstWord a","1","2","0.333333333333333","312.306006193161"

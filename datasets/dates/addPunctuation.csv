@@ -1,7 +1,0 @@
-"","id_file","total_rows","total_inputs","primitive_set","d","num_examples","function","correct_outputs","incorrect_outputs","accuracy","time"
-"1","addPunctuation","7","1","dates.txt","5","1","concat (addPunctuationString a dash)","6","0","1","282.735659837723"
-"2","addPunctuation","7","1","emails.txt","5","1","","0","6","0","161.396756649017"
-"3","addPunctuation","7","1","general.txt","5","1","","0","6","0","9.0828115940094"
-"4","addPunctuation","7","1","names.txt","5","1","","0","6","0","382.523396730423"
-"5","addPunctuation","7","1","original.txt","5","1","","0","6","0","206.220686912537"
-"6","addPunctuation","7","1","words.txt","5","1","","0","6","0","236.617594718933"

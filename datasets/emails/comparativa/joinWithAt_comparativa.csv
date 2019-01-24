@@ -1,6 +1,0 @@
-input1;input2;ff;tw;mh;expected_output
-"Sophia";"domain";"Sophia@domain.com";"Sophia@domain";"Sophia@domain.com";"Sophia@domain.com"
-"Logan";"domain";"Logan@domain.com";"Logan@domain";"Logan@domain.com";"Logan@domain.com"
-"Lucas";"domain";"Lucas@domain.com";"Lucas@domain";"Lucas@domain.com";"Lucas@domain.com"
-"Audrey";"domain";"Audrey@domain.com";"Audrey@domain";"Audrey@domain.com";"Audrey@domain.com"
-"Amelia";"domain";"Amelia@domain.com";"Amelia@domain";"Amelia@domain.com";"Amelia@domain.com"

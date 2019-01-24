@@ -1,0 +1,124 @@
+@font-face {
+    font-family: atwriter;
+    src: url(fonts/atwriter.ttf);
+	
+}
+
+#logo a{
+	font-family: "atwriter";
+	color: #000 !important;
+	font-weight:bold;
+	font-size: 35px;
+}
+
+h1, h2, h3, h4, h5 {
+    text-shadow: 1px 1px 0 #fdfdfd, 1px 2px 0 rgba(81, 81, 81, 0.5), 0 0 1px #fdfdfd;
+}
+
+/* Description */
+#description span{
+	margin-left:10px;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100% !important;
+}
+
+th, td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+}
+
+#form{
+	overflow-x:auto;
+}
+
+#form input[type="text"]{
+	width: 90% !important;
+}
+
+/* Checkbox */
+.cmn-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.cmn-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+input.cmn-toggle-yes-no + label {
+  padding: 2px;
+  width: 120px;
+  height: 60px;
+}
+input.cmn-toggle-yes-no + label:before,
+input.cmn-toggle-yes-no + label:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+}
+input.cmn-toggle-yes-no + label:before {
+  background-color: #bbb;
+  content: attr(data-off);
+  transition: transform 0.5s;
+  backface-visibility: hidden;
+}
+input.cmn-toggle-yes-no + label:after {
+  background-color: #D8450B;
+  content: attr(data-on);
+  transition: transform 0.5s;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+input.cmn-toggle-yes-no:checked + label:before {
+  transform: rotateY(180deg);
+}
+input.cmn-toggle-yes-no:checked + label:after {
+  transform: rotateY(0);
+}
+
+/** Footer **/
+.footer-container{
+	background-color:#1F1F1F;
+}
+
+/* Loader */
+.modal{
+	background-clip: padding-box;
+    background-color: rgba(1, 1, 1, 0.2);
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 1050;
+	border:0;
+	left:0;
+	top:0;
+	margin:0;
+}
+
+.modal p{
+	height: 100%;
+    margin: auto;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    z-index: 2000;
+}

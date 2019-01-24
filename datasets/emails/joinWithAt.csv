@@ -1,7 +1,0 @@
-"","id_file","total_rows","total_inputs","primitive_set","d","num_examples","function","correct_outputs","incorrect_outputs","accuracy","time"
-"1","joinWithAt","5","2","dates.txt","5","1","","0","4","0","118.086560964584"
-"2","joinWithAt","5","2","emails.txt","5","1","joinStringsWithAt a (prepend dotcom b)","4","0","1","75.8354499340057"
-"3","joinWithAt","5","2","general.txt","5","1","","0","4","0","9.97913670539856"
-"4","joinWithAt","5","2","names.txt","5","1","","0","4","0","149.564712524414"
-"5","joinWithAt","5","2","original.txt","5","1","","0","4","0","145.793041706085"
-"6","joinWithAt","5","2","words.txt","5","1","","0","4","0","109.55951333046"
