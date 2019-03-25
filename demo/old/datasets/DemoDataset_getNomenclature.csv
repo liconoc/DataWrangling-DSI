@@ -1,5 +1,0 @@
-input, expected_output
-"Dr. Mark Sipser", "Dr."
-"Louis Johnson, PhD", "PhD"
-"Prof. Edward Davis", "Prof."
-"Robert Mills", ""

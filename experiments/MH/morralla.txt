@@ -1,0 +1,4 @@
+MagicHaskeller/MagicExceller backend server version 0.9.6.6.1 built with GHC-7.10 at 2018-01-30 10:54:08.973146 UTC
+started at 2018-01-31 01:10:43.849432 UTC
+\f -> ?MMagicHaskeller: MagicHaskeller: signal: 15
+end of file

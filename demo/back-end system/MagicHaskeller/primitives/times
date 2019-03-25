@@ -1,0 +1,154 @@
+0 integerToTime :: Int -> [Char]
+0 appendTimeElement :: [Char] -> Int -> [Char]
+0 convertTimeByTimeZone :: [Char] -> [Char] -> [Char] -> [Char]
+0 getTime :: [Char] -> [Char]
+0 getHour :: [Char] -> [Char]
+0 getMinutes :: [Char] -> [Char]
+0 getSeconds :: [Char] -> [Char]
+0 appendOclockTime :: [Char] -> [Char]
+0 appendSomeTime :: [Char] -> Int -> [Char]
+0 changeHour :: [Char] -> Int -> [Char]
+0 changeMinutes :: [Char] -> Int -> [Char]
+0 changeSeconds :: [Char] -> Int -> [Char]
+0 deleteLastTimePosition :: [Char] -> [Char]
+0 increaseHour :: [Char] -> Int -> [Char]
+0 decreaseHour :: [Char] -> Int -> [Char]
+0 increaseMinutes :: [Char] -> Int -> [Char]
+0 decreaseMinutes :: [Char] -> Int -> [Char]
+0 increaseSeconds :: [Char] -> Int -> [Char]
+0 decreaseSeconds :: [Char] -> Int -> [Char]
+0 convertTimeTo24hoursFormat :: [Char] -> [Char]
+0 convertTimeTo12hoursFormat :: [Char] -> [Char]
+0 convertTimeFormat :: [Char] -> [Char] -> [Char]
+0 get12hoursFormatAuxiliar :: [Char] -> [Char]
+0 delete12hoursFormatAuxiliar :: [Char] -> [Char]
+## Números
+0 0 :: Int
+0 0 :: Int
+0 1 :: Int
+0 2 :: Int
+0 3 :: Int
+0 4 :: Int
+0 5 :: Int
+0 6 :: Int
+0 7 :: Int
+0 8 :: Int
+0 9 :: Int
+0 10 :: Int
+0 30 :: Int
+###
+0 concat
+0 filter
+0 foldr
+0 True
+0 False
+0 not
+0 map
+0 concatMap
+0 length
+0 replicate
+0 take
+0 drop
+0 takeWhile
+0 dropWhile
+0 reverse
+0 and
+0 or
+0 any
+0 all
+0 zipWith
+0 sortBy
+0 nubBy
+0 deleteBy
+0 dropWhileEnd
+0 transpose
+0 toUpper
+0 toLower
+0 ord
+0 lines
+0 words
+0 unlines
+0 unwords
+0 show
+0 sort
+###
+0 dash :: [Char]
+0 slash :: [Char]
+0 dot :: [Char]
+0 comma :: [Char]
+0 colon  :: [Char]
+0 lBracket  :: [Char]
+0 rBracket  :: [Char]
+0 at :: [Char]
+0 hash :: [Char]
+0 lparentheses :: [Char]
+0 rparentheses :: [Char]
+0 space :: [Char]
+0 zero  :: [Char]
+0 nineteen  :: [Char]
+0 twenty  :: [Char]
+0 firstElement :: [Char]
+0 middleElement :: [Char]
+0 lastElement :: [Char]
+#####
+0 addPunctuationString :: [Char] -> [Char] -> [[Char]]
+0 splitStringWithoutPunctuation :: [Char] -> [[Char]]
+0 setPunctuationArray :: [[Char]] -> [Char] -> [[Char]]
+0 changePunctuationArray :: [[Char]] -> [Char] -> [[Char]]
+0 changePunctuationString :: [Char] -> [Char] -> [Char]
+0 deletePunctuationArray :: [[Char]] -> [[Char]]
+0 deletePunctuationString :: [Char] -> [Char]
+0 deleteSomePunctuationString :: [Char] -> [Char] -> [Char]
+0 splitStringByPunctuation :: [Char] -> [Char] -> [[Char]]
+0 splitStringWithPunctuation :: [Char] -> [[Char]]
+0 splitStringTakeOffPunctuation :: [Char] -> [[Char]]
+0 swapElementsString :: Int -> Int -> [Char] -> [Char]
+0 swapElementsArray :: Int -> Int -> [[Char]] -> [[Char]]
+0 appendPositionArray :: [[Char]] -> [Char] -> Int -> [[Char]]
+0 appendPositionString :: [Char] -> [Char] -> Int -> [Char]
+0 appendNextToLast :: [[Char]] -> [Char] -> [[Char]]
+0 append :: [Char] -> [Char] -> [Char]
+0 append_first :: [[Char]] -> [Char] -> [[Char]]
+0 append_middle :: [[Char]] -> [Char] -> [[Char]]
+0 append_last :: [[Char]] -> [Char] -> [[Char]]
+0 prepend :: [Char] -> [Char] -> [Char]
+0 prepend_first :: [[Char]] -> [Char] -> [[Char]]
+0 prepend_middle :: [[Char]] -> [Char] -> [[Char]]
+0 prepend_last :: [[Char]] -> [Char] -> [[Char]]
+0 replacePositionArray :: [[Char]] -> [Char] -> Int -> [[Char]]
+0 replacePositionString :: [Char] -> [Char] -> Int -> [Char]
+0 replacePositionArrayFixedSize :: [[Char]] -> [Char] -> [Char] -> [[Char]]
+0 replaceAll :: [Char] -> [Char] -> [Char] -> [Char]
+0 replaceNextToLast :: [[Char]] -> [Char] -> [[Char]]
+0 toLowString :: [Char] -> [Char]
+0 toUpperString :: [Char] -> [Char]
+0 reduceWord :: [Char] -> Int -> [Char]
+0 takeOneOfArray :: [[Char]] -> Int -> [Char]
+0 takeOneOfFixedSizeArray :: [[Char]] -> [Char] -> [Char]
+0 takeOneOfFixedSizeString :: [Char] -> [Char] -> [Char]
+0 joinStringsWithPunctuation :: [Char] -> [Char] -> [Char] -> [Char]
+0 getOneWordByPosition :: [Char] -> Int -> [Char]
+0 getFirstWord :: [Char] -> [Char]
+0 getLastWord :: [Char] -> [Char]
+0 getOneCharacterByPosition :: [Char] -> Int -> [Char]
+0 getFirstCharacter :: [Char] -> [Char]
+0 getLastCharacter :: [Char] -> [Char]
+0 getStartToFirstSymbolOccurrence :: [Char] -> [Char] -> [Char]
+0 getStartToLastSymbolOccurrence :: [Char] -> [Char] -> [Char]
+0 getLastSymbolOccurrenceToEnd :: [Char] -> [Char] -> [Char]
+0 getFirstSymbolOccurrenceToEnd :: [Char] -> [Char] -> [Char]
+0 joinArrayWithPunctuation :: [[Char]] -> [Char] -> [Char]
+0 joinStringsWithoutPunctuation :: [Char] -> [Char] -> [Char]
+0 setParentheses :: [Char] -> [Char]
+0 getCaps :: [Char] -> [Char]
+0 reduceSpaces :: [Char] -> [Char]
+0 setBrackets :: [Char] -> [Char]
+0 completeBrackets :: [Char] -> [Char]
+0 completeParentheses :: [Char] -> [Char]
+0 getFirstDigitToEnd :: [Char] -> [Char]
+0 getStartToFirstDigit :: [Char] -> [Char]
+0 insert_first :: [[Char]] -> [Char] -> [[Char]]
+0 insert_last :: [[Char]] -> [Char] -> [[Char]]
+0 deleteParentheses :: [Char] -> [Char]
+0 changeSomePunctuationString :: [Char] -> [Char] -> [Char] -> [Char]
+0 removeWords :: [Char] -> [[Char]] -> [Char]

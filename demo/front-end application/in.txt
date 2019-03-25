@@ -1,0 +1,11 @@
+
+:set -w 
+ :load functions.hs 
+
+"29-03-86"
+changePunctuationString "25-03-74" dash
+changePunctuationString "12/10/99" dash
+changePunctuationString "11.02.96" dash
+changePunctuationString "17/05/17" dash
+changePunctuationString "25-08-85" dash
+changePunctuationString "30 06 75" dash

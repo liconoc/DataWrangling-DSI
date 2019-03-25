@@ -1,0 +1,172 @@
+## Lines starting with # will be ignored, so you can exclude individual functions by commenting them out. 
+## Números
+0 0 :: Int
+0 0 :: Int
+0 1 :: Int
+0 2 :: Int
+0 3 :: Int
+0 4 :: Int
+0 5 :: Int
+0 6 :: Int
+0 7 :: Int
+0 8 :: Int
+0 9 :: Int
+0 10 :: Int
+0 11 :: Int
+0 12 :: Int
+0 13 :: Int
+0 14 :: Int
+0 15 :: Int
+0 16 :: Int
+0 17 :: Int
+0 18 :: Int
+0 19 :: Int
+0 20 :: Int
+0 21 :: Int
+0 22 :: Int
+0 23 :: Int
+0 24 :: Int
+0 25 :: Int
+0 26 :: Int
+0 27 :: Int
+0 28 :: Int
+0 29 :: Int
+0 30 :: Int
+0 31 :: Int
+0 1900 :: Int
+0 2000 :: Int
+###
+0 concat
+0 filter
+0 foldr
+0 True
+0 False
+0 not
+0 map
+0 concatMap
+0 length
+0 replicate
+0 take
+0 drop
+0 takeWhile
+0 dropWhile
+0 reverse
+0 and
+0 or
+0 any
+0 all
+0 zipWith
+0 sortBy
+0 nubBy
+0 deleteBy
+0 dropWhileEnd
+0 transpose
+0 toUpper
+0 toLower
+0 ord
+0 lines
+0 words
+0 unlines
+0 unwords
+0 show
+0 sort
+0 dash :: [Char]
+0 slash :: [Char]
+0 dot :: [Char]
+0 comma :: [Char]
+0 space :: [Char]
+0 zero  :: [Char]
+0 nineteen  :: [Char]
+0 twenty  :: [Char]
+0 firstElement :: [Char]
+0 middleElement :: [Char]
+0 lastElement :: [Char]
+0 dmy :: [Char]
+0 dym :: [Char]
+0 mdy :: [Char]
+0 myd :: [Char]
+0 ymd :: [Char]
+0 ydm :: [Char]
+0 dm :: [Char]
+0 my :: [Char]
+0 dy :: [Char]
+0 md :: [Char]
+0 ym :: [Char]
+0 yd :: [Char]
+0 d :: [Char]
+0 m :: [Char]
+0 y :: [Char]
+0 dotcom :: [Char]
+#####
+0 getDayCardinalString :: [Char] -> [Char]
+0 getDayCardinalArray :: [[Char]] -> [Char]
+0 getDayOrdinal :: [Char] -> [Char]
+0 getWeekDayArray :: [[Char]] -> [Char]
+0 getWeekDayString :: [Char] -> [Char]
+0 getMonthNameString :: [Char] -> [Char]
+0 getMonthNameArray :: [[Char]] -> [Char]
+0 convertMonth :: [Char] -> [Char]
+0 getYearString :: [Char] -> [Char]
+0 getYearArray :: [[Char]] -> [Char]
+0 convertMonthToNumeric :: [Char] -> [Char]
+0 convertMonthToString :: [Char] -> [Char]
+0 takeTwoOfThreeArray :: [[Char]] -> Int -> Int -> [[Char]]
+0 getMonthArray :: [[Char]] -> [Char]
+0 getMonthString :: [Char] -> [Char]
+0 convertMonthToNumericWithinArray :: [[Char]] -> [[Char]]
+0 convertMonthToStringWithinArray :: [[Char]] -> [[Char]]
+0 reduceMonthWithinArray :: [[Char]] -> [[Char]]	
+0 changeDateFormat :: [Char] -> [Char] -> [[Char]]
+0 convertDayOrdinalWithinArray :: [[Char]] -> [[Char]]
+0 reduceYear :: [Char] -> [Char]
+0 reduceYearWithinArray :: [[Char]] -> [[Char]]
+0 reduceMonth :: [Char] -> [Char]
+#####
+0 addPunctuationString :: [Char] -> [Char] -> [[Char]]
+0 splitStringWithoutPunctuation :: [Char] -> [[Char]]
+0 setPunctuationArray :: [[Char]] -> [Char] -> [[Char]]
+0 changePunctuationArray :: [[Char]] -> [Char] -> [[Char]]
+0 changePunctuationString :: [Char] -> [Char] -> [Char]
+0 deletePunctuationArray :: [[Char]] -> [[Char]]
+0 deletePunctuationString :: [Char] -> [Char]
+0 deleteSomePunctuationString :: [Char] -> [Char] -> [Char]
+0 splitStringByPunctuation :: [Char] -> [Char] -> [[Char]]
+0 splitStringWithPunctuation :: [Char] -> [[Char]]
+0 splitStringTakeOffPunctuation :: [Char] -> [[Char]]
+0 swapElementsString :: Int -> Int -> [Char] -> [Char]
+0 swapElementsArray :: Int -> Int -> [[Char]] -> [[Char]]
+0 appendPositionArray :: [[Char]] -> [Char] -> Int -> [[Char]]
+0 appendPositionString :: [Char] -> [Char] -> Int -> [Char]
+0 appendNextToLast :: [[Char]] -> [Char] -> [[Char]]
+0 append :: [Char] -> [Char] -> [Char]
+0 append_first :: [[Char]] -> [Char] -> [[Char]]
+0 append_middle :: [[Char]] -> [Char] -> [[Char]]
+0 append_last :: [[Char]] -> [Char] -> [[Char]]
+0 prepend :: [Char] -> [Char] -> [Char]
+0 prepend_first :: [[Char]] -> [Char] -> [[Char]]
+0 prepend_middle :: [[Char]] -> [Char] -> [[Char]]
+0 prepend_last :: [[Char]] -> [Char] -> [[Char]]
+0 replacePositionArray :: [[Char]] -> [Char] -> Int -> [[Char]]
+0 replacePositionString :: [Char] -> [Char] -> Int -> [Char]
+0 replacePositionArrayFixedSize :: [[Char]] -> [Char] -> [Char] -> [[Char]]
+0 replaceAll :: [Char] -> [Char] -> [Char] -> [Char]
+0 replaceNextToLast :: [[Char]] -> [Char] -> [[Char]]
+0 reduceWord :: [Char] -> Int -> [Char]
+0 takeOneOfArray :: [[Char]] -> Int -> [Char]
+0 takeOneOfFixedSizeArray :: [[Char]] -> [Char] -> [Char]
+0 takeOneOfFixedSizeString :: [Char] -> [Char] -> [Char]
+0 joinStringsWithPunctuation :: [Char] -> [Char] -> [Char] -> [Char]
+0 getStartToFirstSymbolOccurrence :: [Char] -> [Char] -> [Char]
+0 getStartToLastSymbolOccurrence :: [Char] -> [Char] -> [Char]
+0 getLastSymbolOccurrenceToEnd :: [Char] -> [Char] -> [Char]
+0 getFirstSymbolOccurrenceToEnd :: [Char] -> [Char] -> [Char]
+0 joinArrayWithPunctuation :: [[Char]] -> [Char] -> [Char]
+0 joinStringsWithoutPunctuation :: [Char] -> [Char] -> [Char]
+0 reduceSpaces :: [Char] -> [Char]
+0 getFirstDigitToEnd :: [Char] -> [Char]
+0 getStartToFirstDigit :: [Char] -> [Char]
+0 insert_first :: [[Char]] -> [Char] -> [[Char]]
+0 insert_last :: [[Char]] -> [Char] -> [[Char]]
+0 deleteParentheses :: [Char] -> [Char]
+0 changeSomePunctuationString :: [Char] -> [Char] -> [Char] -> [Char]
+0 removeWords :: [Char] -> [[Char]] -> [Char]

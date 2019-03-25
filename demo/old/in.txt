@@ -1,9 +1,0 @@
-
-:set -w 
- :load functions.hs 
-
-"09:50"
-getLastSymbolOccurrenceToEnd (getFirstDigitToEnd (reduceSpaces a)) dash
-getLastSymbolOccurrenceToEnd (getFirstDigitToEnd (reduceSpaces a)) dash
-getLastSymbolOccurrenceToEnd (getFirstDigitToEnd (reduceSpaces a)) dash
-getLastSymbolOccurrenceToEnd (getFirstDigitToEnd (reduceSpaces a)) dash
